@@ -21,7 +21,7 @@ export default function Navbar() {
           <Nav.Link href="#" className="btn btn-dark">قيمنا</Nav.Link>
         </Nav.Item>
         <Nav.Item>
-          <Nav.Link href="#" className="btn btn-dark">من نحن</Nav.Link>
+          <Nav.Link href="#about" className="btn btn-dark smoothscroll">من نحن</Nav.Link>
         </Nav.Item>
         <Nav.Item>
           <Nav.Link href="#" className="btn btn-dark">الرئيسيه</Nav.Link>
