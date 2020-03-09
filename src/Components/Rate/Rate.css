@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+label.Flip {
+    -webkit-perspective: 1000px;
+    perspective: 1000px;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    display: block;
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+
+.Flipcard {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-transition: all 600ms;
+    transition: all 600ms;
+    z-index: 20;
+}
+
+    .Flipcard div {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        background: #FFF;
+        text-align: center;
+        line-height: 200px;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+        border-radius: 2px;
+    }
+
+    .Flipcard .Flipback {
+        background: #222;
+        color: #FFF;
+        -webkit-transform: rotateX(180deg);
+        transform: rotateX(180deg);
+    }
+
+label.Flip:hover .Flipcard {
+    -webkit-transform: rotateX(20deg);
+    transform: rotateX(20deg);
+    box-shadow: 0 20px 20px rgba(50,50,50,.2);
+}
+
+input.Flip {
+    display: none;
+}
+
+:checked + .Flipcard {
+    transform: rotateX(180deg);
+    -webkit-transform: rotateX(180deg);
+}
+
+label.Flip:hover :checked + .Flipcard {
+    transform: rotateX(160deg);
+    -webkit-transform: rotateX(160deg);
+    box-shadow: 0 20px 20px rgba(255,255,255,.2);
+}
+
+.rating { 
+   border: none;
+   float: left;
+ }
+ 
+ .rating > input { display: none; } 
+ .rating > label:before { 
+   margin: 5px;
+   font-size: 1.25em;
+   font-family: FontAwesome;
+   display: inline-block;
+   content: "\f005";
+ }
+ 
+ .rating > .half:before { 
+   content: "\f089";
+   position: absolute;
+ }
+ 
+ .rating > label { 
+   color: #ddd; 
+  float: right; 
+ }
+ 
+ /***** CSS Magic to Highlight Stars on Hover *****/
+ 
+ .rating > input:checked ~ label, /* show gold star when clicked */
+ .rating:not(:checked) > label:hover, /* hover current star */
+ .rating:not(:checked) > label:hover ~ label { color: #FFD700;  } /* hover previous stars in list */
+ 
+ .rating > input:checked + label:hover, /* hover current star when changing rating */
+ .rating > input:checked ~ label:hover,
+ .rating > label:hover ~ input:checked ~ label, /* lighten current selection */
+ .rating > input:checked ~ label:hover ~ label { color: #FFED85;  } 
