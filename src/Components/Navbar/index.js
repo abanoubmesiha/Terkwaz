@@ -18,13 +18,13 @@ export default function Navbar() {
           <Nav.Link href="#" className="btn btn-dark">شركاؤنا</Nav.Link>
         </Nav.Item>
         <Nav.Item>
-          <Nav.Link href="#" className="btn btn-dark">قيمنا</Nav.Link>
+          <Nav.Link href="#Rate" className="btn btn-dark">قيمنا</Nav.Link>
         </Nav.Item>
         <Nav.Item>
-          <Nav.Link href="#about" className="btn btn-dark smoothscroll">من نحن</Nav.Link>
+          <Nav.Link href="#About" className="btn btn-dark smoothscroll">من نحن</Nav.Link>
         </Nav.Item>
         <Nav.Item>
-          <Nav.Link href="#" className="btn btn-dark">الرئيسيه</Nav.Link>
+          <Nav.Link href="#Main" className="btn btn-dark">الرئيسيه</Nav.Link>
         </Nav.Item>
     </Nav>
     </div>
