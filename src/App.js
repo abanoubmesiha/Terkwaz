@@ -5,6 +5,7 @@ import Main from './Components/Main';
 import About from './Components/About';
 import Rate from './Components/Rate';
 import Services from './Components/Services';
+import Partners from './Components/Partners';
 
 // import logo from './logo.svg';
 // import './App.css';
@@ -17,6 +18,7 @@ function App() {
     <About />
     <Rate />
     <Services />
+    <Partners />
     </React.Fragment>
   );
 }
