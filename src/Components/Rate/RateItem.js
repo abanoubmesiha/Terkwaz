@@ -4,8 +4,7 @@ import './Rate.css';
 export default function RateItem(props) {
     return (
         <React.Fragment>
-            <div className="w-100 mt-3">
-                
+            <div className="col-lg-2 col-md-2 col-sm-3 d-flex justify-content-around">
                 <label className="Flip">
         <input className="Flip" type="checkbox"  />
         <div className="Flipcard">
@@ -26,7 +25,7 @@ export default function RateItem(props) {
             </fieldset></div>
         </div>
     </label>
-    <h6>{props.Id}</h6>  
+        <h6 style={{position: 'absolute',bottom: '0'}}>{props.Id}</h6>  
                 
             </div>
         </React.Fragment>
