@@ -3,7 +3,7 @@ import {Card} from 'react-bootstrap';
 
 export default function ServiceItem(props) {
     return (
-        <div className="col-lg-3 my-3">
+        <div className="col-10 col-sm-10 col-md-5 col-lg-3 my-3">
         <Card style={{ boxShadow: '1px 1px 4px'}}>
     <Card.Body>
       <Card.Title>{props.title}</Card.Title>
