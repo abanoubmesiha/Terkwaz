@@ -4,6 +4,7 @@ import NavBar from './Components/NavBar';
 import Main from './Components/Main';
 import About from './Components/About';
 import Rate from './Components/Rate';
+import Services from './Components/Services';
 
 // import logo from './logo.svg';
 // import './App.css';
@@ -15,6 +16,7 @@ function App() {
     <Main />
     <About />
     <Rate />
+    <Services />
     </React.Fragment>
   );
 }
