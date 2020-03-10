@@ -1,6 +1,6 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Navbar from './Components/Navbar';
+import NavBar from './Components/NavBar';
 import Main from './Components/Main';
 import About from './Components/About';
 import Rate from './Components/Rate';
@@ -11,7 +11,7 @@ import Rate from './Components/Rate';
 function App() {
   return (
     <React.Fragment>
-    <Navbar />
+    <NavBar />
     <Main />
     <About />
     <Rate />

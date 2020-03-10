@@ -4,7 +4,7 @@ import './Rate.css';
 export default function RateItem(props) {
     return (
         <React.Fragment>
-            <div className="w-100">
+            <div className="w-100 mt-3">
                 
                 <label className="Flip">
         <input className="Flip" type="checkbox"  />

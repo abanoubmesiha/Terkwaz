@@ -1,33 +1,31 @@
-import React from 'react'
-import Nav from 'react-bootstrap/Nav'
+import React from 'react';
+import { Nav,Navbar } from 'react-bootstrap';
 
-export default function Navbar() {
+export default function NavBar() {
     return (
-        
-    <nav className="navbar navbar-expand-md navbar-dark bg-dark text-white">
-    <div className="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
+      <React.Fragment>
+      <Navbar bg="" expand="md">
+      <Navbar.Toggle aria-controls="basic-navbar-nav" />
+  <Navbar.Collapse id="basic-navbar-nav">
+    <Nav className="mr-auto">
+      <Nav.Link href="#" className="border-dark" style={{/*border:'0.1rem solid white',borderRadius: '1.5rem'*/}}>للتواصل معنا</Nav.Link>
+    </Nav>
     <Nav>
-        <Nav.Item>
-          <Nav.Link href="#" className="btn btn-dark border-white" style={{border:'0.1rem solid white',borderRadius: '1.5rem'}}>للتواصل معنا</Nav.Link>
-        </Nav.Item>
-    </Nav>
-    </div>
-    <div className="navbar-collapse collapse w-100 order-3 dual-collapse2">
-    <Nav className="ml-auto">
-        <Nav.Item>
-          <Nav.Link href="#" className="btn btn-dark">شركاؤنا</Nav.Link>
-        </Nav.Item>
-        <Nav.Item>
-          <Nav.Link href="#Rate" className="btn btn-dark">قيمنا</Nav.Link>
-        </Nav.Item>
-        <Nav.Item>
-          <Nav.Link href="#About" className="btn btn-dark smoothscroll">من نحن</Nav.Link>
-        </Nav.Item>
-        <Nav.Item>
-          <Nav.Link href="#Main" className="btn btn-dark">الرئيسيه</Nav.Link>
-        </Nav.Item>
-    </Nav>
-    </div>
-</nav>
+           <Nav.Link href="#" className="">شركاؤنا</Nav.Link>
+         </Nav>
+         <Nav>
+           <Nav.Link href="#Rate" className="">قيمنا</Nav.Link>
+         </Nav>
+         <Nav>
+           <Nav.Link href="#About" className=" smoothscroll">من نحن</Nav.Link>
+         </Nav>
+         <Nav>
+           <Nav.Link href="#Main" className="">الرئيسيه</Nav.Link>
+         </Nav>
+  </Navbar.Collapse>
+  <Navbar.Brand className="" href="#home">React-Bootstrap</Navbar.Brand>
+</Navbar>
+    </React.Fragment>
+
     )
 }
