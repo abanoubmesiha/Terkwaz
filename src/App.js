@@ -1,6 +1,6 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Navbar from './Components/Navbar';
+import Navbarr from './Components/Navbarr';
 import Main from './Components/Main';
 import About from './Components/About';
 import Rate from './Components/Rate';
@@ -15,7 +15,7 @@ import Footer from './Components/Footer';
 function App() {
   return (
     <React.Fragment>
-    <Navbar />
+    <Navbarr />
     <Main />
     <About />
     <Rate />

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Nav,Navbar } from 'react-bootstrap';
 
-export default function NavBar() {
+export default function Navbarr() {
     return (
       <React.Fragment>
       <Navbar id="Navbar"  expand="md">
