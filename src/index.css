@@ -37,6 +37,7 @@ code {
 @media (max-width: 640px) {
   #Main {
     margin-top: 190px;
+    padding-bottom: 10vw;
   }
   .responsiveText {
     font-size: 5.5vw !important;

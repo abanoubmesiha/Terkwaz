@@ -18,7 +18,7 @@ function App() {
     <Navbarr />
     <Main />
     <About />
-    {/* <Rate /> */}
+    <Rate />
     <Services />
     <Partners />
     <Contact />
