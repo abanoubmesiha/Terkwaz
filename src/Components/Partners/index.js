@@ -4,15 +4,15 @@ import './carousel.css'
 
 export default function index() {
     return (
-        <div className="w-100">
-        <div className="row justify-content-center text-center" id="Partners">
+        <div className="">
+        <div className=" text-center" id="Partners">
         <div className="col-9">
             <h3>شركاؤنا</h3>
             <h6>فخورون بشراكتنا مع القطاعات الخاصة والحكومية والشركات الناشئه</h6>
             </div>
             </div>
-            <div className="row justify-content-center text-center">
-        <div className="col d-flex justify-content-center">
+            <div className=" text-center">
+        <div className="">
         <Carousel>
   <Carousel.Item>
       <img style={{width:'25%',margin:'1rem'}} src={require("../../assets/images/1810234@3x.png")}alt="First slide"/>

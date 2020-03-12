@@ -4,14 +4,14 @@ import ServiceItem from './ServiceItem';
 
 export default function index() {
     return (
-        <div className="w-100">
-        <div className="row justify-content-center text-center" id="Services">
+        <div className="">
+        <div className=" text-center" id="Services">
         <div className="col-9">
             <h3>خدماتنا</h3>
             <h6>تقسم خدماتنا الي خدمات في مجال الإنتاج الإعلامي والتسويق الرقمي</h6>
             </div>
             </div>
-           <div className="row justify-content-center text-center">
+           <div className=" text-center">
            <div className="col-12">
            <Tab.Container id="left-tabs-example" defaultActiveKey="first">
   <Row className="justify-content-center text-center">
