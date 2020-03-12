@@ -4,13 +4,13 @@ import './Rate.css';
 export default function RateItem(props) {
     return (
         <React.Fragment>
-            <div className="col d-flex justify-content-around">
+            <div className="mb-5 col d-flex justify-content-around">
                 <label className="Flip">
         <input className="Flip" type="checkbox"  />
         <div className="Flipcard">
             <div className="Flipfront"><img style={{width:'75px'}} src={props.ImgUrl} /></div>
             <div className="Flipback ">
-                <h6 className="">كم هو تقييمك ؟</h6>
+                <h6 style={{marginTop: '20px'}}>كم هو تقييمك ؟</h6>
                 <fieldset className="rating">
                 <input type="radio" id={`${props.Id}star5`} name={props.Id} value="5" /><label className = "full" htmlFor={`${props.Id}star5`} title="Awesome - 5 stars"></label>
                 <input type="radio" id={`${props.Id}star4half`} name={props.Id} value="4 and a half" /><label className="half" htmlFor={`${props.Id}star4half`} title="Pretty good - 4.5 stars"></label>
