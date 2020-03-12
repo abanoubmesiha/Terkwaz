@@ -4,7 +4,7 @@ import { Nav,Navbar } from 'react-bootstrap';
 export default function NavBar() {
     return (
       <React.Fragment>
-      <Navbar bg="" expand="md">
+      <Navbar id="Navbar"  expand="md">
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
   <Navbar.Collapse id="basic-navbar-nav">
     <Nav className="mr-auto">
