@@ -16,6 +16,6 @@ code {
 body{
   background-image: url(./assets/images/38@3x.png),url(./assets/images/40@3x.png),url(./assets/images/2377@3x.png),url(./assets/images/2376@3x.png);
   background-repeat: no-repeat,no-repeat,no-repeat,no-repeat;
-  background-position: right top,left top,10% 5%,40% 12%;
-  background-size: 60%,20%,40%,10%;
+  background-position: right top,left top,7% 3%,45% 6%;
+  background-size: 55%,25%,40%,10%;
 }
