@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function About() {
     return (
-        <div  style={{height:'100vh'}}>
+        <div>
         <div className="row text-center justify-content-center"id="About">
         <div className="col-9">
             <h3>من نحن ؟</h3>

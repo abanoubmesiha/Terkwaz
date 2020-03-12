@@ -4,7 +4,7 @@ import RateItem from './RateItem'
 
 export default function Rate() {
     return (
-        <div className="w-100" style={{height:'100vh'}}>
+        <div className="w-100">
         <div className="row justify-content-center text-center" id="Rate">
         <div className="col-9">
             <h3>قيمنا</h3>

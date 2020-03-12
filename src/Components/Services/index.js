@@ -4,7 +4,7 @@ import ServiceItem from './ServiceItem';
 
 export default function index() {
     return (
-        <div className="w-100" style={{height:'100vh'}}>
+        <div className="w-100">
         <div className="row justify-content-center text-center" id="Services">
         <div className="col-9">
             <h3>خدماتنا</h3>
