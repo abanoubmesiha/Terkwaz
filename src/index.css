@@ -19,7 +19,11 @@ body{
   background-position: right top,left top,7% 3%,45% 6%;
   background-size: 55%,25%,40%,10%;
 }
-#Main{
-  padding-top: 10vh;
-    padding-bottom: 40vh;
+#Main,#About,#Rate{
+  padding-top: 3vw;
+    padding-bottom: 40vw;
+    padding-right: 3vw;
+}
+.responsiveText {
+  font-size: 2vw !important;
 }
