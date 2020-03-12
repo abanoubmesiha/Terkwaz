@@ -18,11 +18,11 @@ function App() {
     <Navbarr />
     <Main />
     <About />
-    <Rate />
+    {/* <Rate /> */}
     <Services />
     <Partners />
     <Contact />
-    <Footer />
+    {/* <Footer /> */}
     </React.Fragment>
   );
 }

@@ -23,7 +23,8 @@ export default function Navbarr() {
            <Nav.Link href="#Main" className="text-white">الرئيسيه</Nav.Link>
          </Nav>
   </Navbar.Collapse>
-  <Navbar.Brand className="text-white" href="#home"><img src={require('../../assets/images/logo-atraak.png')} width="200" /></Navbar.Brand>
+  {/* <Navbar.Brand className="text-white" href="#home"><img src={require('../../assets/images/logo-atraak.png')} style={{width: '10%',height: 'auto'}} /></Navbar.Brand> */}
+  <img src={require('../../assets/images/logo-atraak.png')} style={{width: '20%',height: 'auto'}} />
 </Navbar>
     </React.Fragment>
 
