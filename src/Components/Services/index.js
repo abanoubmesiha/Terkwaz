@@ -7,7 +7,7 @@ export default function index() {
       <React.Fragment>
         <div className=" text-center" id="Services">
             <h3>خدماتنا</h3>
-            <h6>تقسم خدماتنا الي خدمات في مجال الإنتاج الإعلامي والتسويق الرقمي</h6>
+            <h5>تقسم خدماتنا الي خدمات في مجال الإنتاج الإعلامي والتسويق الرقمي</h5>
             </div>
            <div className=" text-center">
            <div className="col-12">

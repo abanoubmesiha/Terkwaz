@@ -8,7 +8,7 @@ export default function index() {
         <div className=" text-center" id="Partners">
         <div className="col-9">
             <h3>شركاؤنا</h3>
-            <h6>فخورون بشراكتنا مع القطاعات الخاصة والحكومية والشركات الناشئه</h6>
+            <h5>فخورون بشراكتنا مع القطاعات الخاصة والحكومية والشركات الناشئه</h5>
             </div>
             </div>
             <div className=" text-center">
