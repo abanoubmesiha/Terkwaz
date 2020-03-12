@@ -1,7 +1,7 @@
 import React from 'react'
 import {Tab,Row,Col,Nav} from 'react-bootstrap';
 import ServiceItem from './ServiceItem';
-
+import './Services.css'
 export default function index() {
     return (
       <React.Fragment>
@@ -11,7 +11,7 @@ export default function index() {
             </div>
            <div className=" text-center">
            <div className="col-12">
-           <Tab.Container id="left-tabs-example" defaultActiveKey="first">
+           <Tab.Container id="Services" defaultActiveKey="first">
   <Row className="justify-content-center text-center">
     <Col sm={4}>
       <Nav variant="pills" className="justify-content-center text-center flex-row">
