@@ -1,24 +1,26 @@
 @font-face {
-  font-family: 'MyFont';
-  src: local('MyFont'), url(./assets/fonts/light-font.otf) format('opentype');
+  font-family: 'light-font';
+  src: url(./assets/fonts/light-font.otf);
 }
+
+/* div {
+  font-family: myFirstFont;
+} */
 body {
   margin: 0;
-  font-family: MyFont;
+  font-family: 'light-font' !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url(./assets/images/38@3x.png),url(./assets/images/40@3x.png),url(./assets/images/2377@3x.png),url(./assets/images/2376@3x.png);
+  background-repeat: no-repeat,no-repeat,no-repeat,no-repeat;
+  background-position: right top,left top,8% 5%,45% 6%;
+  background-size: 55%,25%,40%,10%;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-}
-body{
-  background-image: url(./assets/images/38@3x.png),url(./assets/images/40@3x.png),url(./assets/images/2377@3x.png),url(./assets/images/2376@3x.png);
-  background-repeat: no-repeat,no-repeat,no-repeat,no-repeat;
-  background-position: right top,left top,7% 3%,45% 6%;
-  background-size: 55%,25%,40%,10%;
-}
+} 
 #Main {
   padding-top: 3vw;
     padding-bottom: 40vw;
