@@ -13,16 +13,14 @@ export default function index() {
            <div className="col-12">
            <Tab.Container id="Services" defaultActiveKey="first">
   <Row className="justify-content-center text-center">
-    <Col sm={4}>
       <Nav variant="pills" className="justify-content-center text-center flex-row">
         <Nav.Item>
-          <Nav.Link eventKey="first">الإنتاج الاعلامي</Nav.Link>
+          <Nav.Link eventKey="first">التسويق الرقمي</Nav.Link>
         </Nav.Item>
         <Nav.Item>
-          <Nav.Link eventKey="second">التسويق الرقمي</Nav.Link>
+          <Nav.Link eventKey="second">الإنتاج الاعلامي</Nav.Link>
         </Nav.Item>
       </Nav>
-    </Col>
     <Col sm={11}>
       <Tab.Content  className="justify-content-center text-center">
         <Tab.Pane eventKey="first">

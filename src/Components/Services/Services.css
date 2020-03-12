@@ -1,5 +1,21 @@
 @import "../../Colors.css";
 #Services-tab-second {
 color:var(--MyBlack);
-
+border-top-right-radius: 100px;
+border-bottom-right-radius: 100px;
+box-shadow:2px 1px 7px -2px var(--MyGray);
+}
+#Services-tab-second.active{
+    color:var(--MyWhite);
+    BACKGROUND-COLOR: var(--MyYellow);
+}
+#Services-tab-first {
+color:var(--MyBlack);
+border-top-left-radius: 100px;
+border-bottom-left-radius: 100px;
+box-shadow:-2px 1px 7px -2px var(--MyGray);
+}
+#Services-tab-first.active{
+    color:var(--MyWhite);
+    BACKGROUND-COLOR: var(--MyYellow);
 }
