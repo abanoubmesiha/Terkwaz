@@ -4,12 +4,10 @@ import ServiceItem from './ServiceItem';
 
 export default function index() {
     return (
-        <div className="">
+      <React.Fragment>
         <div className=" text-center" id="Services">
-        <div className="col-9">
             <h3>خدماتنا</h3>
             <h6>تقسم خدماتنا الي خدمات في مجال الإنتاج الإعلامي والتسويق الرقمي</h6>
-            </div>
             </div>
            <div className=" text-center">
            <div className="col-12">
@@ -47,6 +45,6 @@ export default function index() {
 </Tab.Container>
            </div>
         </div>
-        </div>
+        </React.Fragment>
     )
 }
