@@ -20,6 +20,7 @@ box-shadow:-2px 1px 7px -2px var(--MyGray);
     BACKGROUND-COLOR: var(--MyYellow);
 }
 #ServiceItem {
+    height: 100%;
     box-shadow: 1px 1px 8px 0px #d5d5d5;
     background-image: url(../../assets/images/5448@3x.png);
     background-repeat: no-repeat;
