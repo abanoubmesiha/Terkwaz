@@ -3,11 +3,10 @@ import {Card,Form, Button} from 'react-bootstrap'
 import './Contact.css'
 export default function index(props) {
     return (
-        <div className="" style={{position:'relative'}}>
-  <div className="w-100" style={{position:'absolute',bottom:'0',backgroundColor:'black',height:'25px'}}></div>
-
-        <div className=" text-center" id="Services">
-        <div className="col-9">
+         <div className="w-100" style={{position:'relative'}}>
+  
+   <div className="w-100" style={{position:'absolute',bottom:'0',backgroundColor:'black',height:'25px'}}></div>
+  <div className="w-50 m-auto text-center" id="Services">
         <Card style={{ boxShadow: '1px 1px 4px'}}>
     <Card.Body>
       <Card.Title>للتواصل معنا</Card.Title>
@@ -21,7 +20,6 @@ export default function index(props) {
     </Card.Body>
   </Card>
         </div>
-        </div>
-        </div>
+         </div>
     )
 }
