@@ -1,3 +1,6 @@
 .carousel-indicators li{
     background-color:black;
 }
+.carousel-indicators {
+    bottom:-10px !important;
+}
