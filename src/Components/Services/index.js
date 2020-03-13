@@ -9,7 +9,7 @@ export default function index() {
             <h3>خدماتنا</h3>
             <h5>تقسم خدماتنا الي خدمات في مجال الإنتاج الإعلامي والتسويق الرقمي</h5>
             </div>
-           <div className=" text-center">
+           <div className="mb-5 text-center">
            <div className="col-12">
            <Tab.Container id="Services" defaultActiveKey="first">
   <Row className="justify-content-center text-center">
