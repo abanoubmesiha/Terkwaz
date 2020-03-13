@@ -1,3 +1,4 @@
+@import './Colors.css';
 @font-face {
   font-family: 'light-font';
   src: url(./assets/fonts/light-font.otf);
@@ -31,6 +32,7 @@ code {
     padding-bottom: 10vw;
     padding-right: 3vw;
 }
+
 .responsiveText {
   font-size: 2.5vw !important;
 }

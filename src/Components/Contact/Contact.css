@@ -1,2 +1,9 @@
+@import '../../Colors.css';
 ::-webkit-input-placeholder { text-align:right; }
 input:-moz-placeholder { text-align:right; }
+#ContactBottomLine {
+    position:absolute;
+    bottom:0;
+    background-color:var(--MyBlack);
+    height:25px
+}

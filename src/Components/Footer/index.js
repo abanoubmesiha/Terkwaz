@@ -1,31 +1,33 @@
 import React from 'react'
-import {ListGroup,Row, Col} from 'react-bootstrap'
+import {ListGroup,Row, Col,Nav,Navbar} from 'react-bootstrap'
 import './Footer.css'
 export default function index() {
     return (
-        <div className="" style={{backgroundColor:'black',height:'20vh'}}>
-        <Row style={{width:"110px"}}>
-        <Col>
-        <ListGroup className="" horizontal>
-  <ListGroup.Item><img src={require('../../assets/images/Exclusion 3@3x.png')} width="40" /></ListGroup.Item>
-  <ListGroup.Item><img src={require('../../assets/images/Exclusion 1@3x.png')} width="40" /></ListGroup.Item>
-  <ListGroup.Item><img src={require('../../assets/images/Exclusion 4@3x.png')} width="40" /></ListGroup.Item>
-</ListGroup>
-        <ListGroup horizontal>
-  <ListGroup.Item>سياسة الخصوصيه</ListGroup.Item>
-  <ListGroup.Item>موقعنا</ListGroup.Item>
-  <ListGroup.Item>خدماتنا</ListGroup.Item>
-  <ListGroup.Item>من نحن</ListGroup.Item>
-  {/* <img src={require('../../assets/images/logo.jpg')} width="20%" />   */}
-</ListGroup>
-        </Col>
-        </Row>
-        <Row className="justify-content-center">
-        <Col className="text-center">
-<hr style={{border:'1px solid grey'}}/>
-<p>© 2020 Terkwaz All Rights Reserved</p>
-        </Col>
-        </Row>
-        </div>
-    )
+<div id="Footer">
+<Navbar variant="dark"  expand="md">
+<Navbar.Toggle aria-controls="basic-navbar-nav" />
+<Navbar.Collapse id="basic-navbar-nav">
+<Nav className="mr-auto">
+<img src={require('../../assets/images/media.jpg')}  />
+</Nav>
+<Nav>
+   <Nav>
+     <Nav.Link  className="text-white">سياسة الخصوصيه</Nav.Link>
+   </Nav>
+     <Nav.Link  className="text-white">موقعنا</Nav.Link>
+   </Nav>
+   <Nav>
+     <Nav.Link  className="text-white">خدماتنا</Nav.Link>
+   </Nav>
+   <Nav>
+     <Nav.Link  className="text-white smoothscroll">من نحن</Nav.Link>
+   </Nav>
+</Navbar.Collapse>
+{/* <Navbar.Brand className="text-white" href="#home"><img src={require('../../assets/images/logo-atraak.png')} style={{width: '10%',height: 'auto'}} /></Navbar.Brand> */}
+<img src={require('../../assets/images/logo-atraak.png')} style={{width: '10%',height: 'auto'}} />
+</Navbar>
+<hr style={{ marginRight:'1rem',marginLeft:'1rem', borderTop: '1px solid gray'}} /><p className="text-white text-center m-0 pb-2" style={{fontFamily:'auto'}}>© 2020 Terkwaz All Rights Reserved</p>
+
+</div>
+   )
 }

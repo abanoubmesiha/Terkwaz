@@ -22,7 +22,7 @@ function App() {
     <Services />
     <Partners />
     <Contact />
-    {/* <Footer /> */}
+    <Footer />
     </React.Fragment>
   );
 }

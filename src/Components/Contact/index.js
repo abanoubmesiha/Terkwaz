@@ -5,7 +5,7 @@ export default function index(props) {
     return (
          <div className="w-100" style={{position:'relative'}}>
   
-   <div className="w-100" style={{position:'absolute',bottom:'0',backgroundColor:'black',height:'25px'}}></div>
+   <div className="w-100" id="ContactBottomLine"></div>
   <div className="w-50 m-auto text-center" id="Services">
         <Card style={{ boxShadow: '1px 1px 4px'}}>
     <Card.Body>

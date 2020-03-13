@@ -2,3 +2,6 @@
 color: white;
 background-color: black;
 }
+#Footer {
+    background-color: var(--MyBlack);
+  }
