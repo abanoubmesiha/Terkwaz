@@ -5,7 +5,7 @@ export default function About() {
         <div id="About">
         <div className="row text-center justify-content-center">
         <div className="col-9">
-            <h3>من نحن ؟</h3>
+            <h3 className="medium-font">من نحن ؟</h3>
             </div>
             </div>
             <div className="row text-center justify-content-center">

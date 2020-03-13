@@ -20,10 +20,12 @@ body {
   font-family: 'light-font' !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url(./assets/images/38@3x.png),url(./assets/images/40@3x.png),url(./assets/images/2377@3x.png),url(./assets/images/2376@3x.png);
-  background-repeat: no-repeat,no-repeat,no-repeat,no-repeat;
-  background-position: right top,left top,8% 5%,45% 6%;
-  background-size: 55%,25%,40%,10%;
+  background-image: url(./assets/images/38@3x.png),url(./assets/images/40@3x.png),
+  url(./assets/images/2377@3x.png),url(./assets/images/2376@3x.png),
+  url(./assets/images/circle.jpg),url(./assets/images/circletri.jpg),url(./assets/images/circletri.jpg),url(./assets/images/circletri.jpg);
+  background-repeat: no-repeat,no-repeat,no-repeat,no-repeat,no-repeat,no-repeat,no-repeat,no-repeat;
+  background-position: right top,left top,8% 5%,45% 6%,left center, right center, 5% 20%, 60% 30%;
+  background-size: 55%,25%,40%,10%,20%,20%,20%,20%;
 }
 
 code {
