@@ -33,7 +33,6 @@ export default function index() {
       <img className="CarouselImg" src={require("../../assets/images/Mask Group 41@3x.png")}alt="First slide"/>
       <img className="CarouselImg" src={require("../../assets/images/Mask Group 42@3x.png")}alt="First slide"/>
       <img className="CarouselImg" src={require("../../assets/images/sppKevoY_400x400@2x.png")}alt="First slide"/>
-<img className="CarouselImg" src={require("../../assets/images/Dr-FVyNX4AAxrtf@3x.png")}alt="First slide"/>
   </Carousel.Item>
 </Carousel>
         </div>

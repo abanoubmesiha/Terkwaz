@@ -5,3 +5,6 @@ background-color: black;
 #Footer {
     background-color: var(--MyBlack);
   }
+  .navbar-nav .nav-link{
+    padding-left: .3rem;
+  }

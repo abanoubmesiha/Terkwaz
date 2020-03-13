@@ -53,7 +53,14 @@ code {
 .medium-font {
   font-family: 'medium-font' !important;
 }
+#copy {
+  font-family:auto;
+  font-size:1vw;
+}
 @media (max-width: 640px) {
+  #copy {
+    font-size:2vw;
+  }
   /* #Main {
     margin-top: 190px;
     padding-bottom: 10vw;
@@ -67,7 +74,7 @@ code {
       padding-bottom: 30vw;
       padding-right: 1vw;
   }
-  #Services {
+  #Contact {
     width: 90% !important;
   }
   body {
@@ -80,5 +87,9 @@ margin:0.5rem !important;
   }
   .carousel-indicators {
     bottom:-20px !important;
+}
+.navbar-nav .nav-link{
+  font-size: 3vw;
+  padding-left: .3rem !important;
 }
 }

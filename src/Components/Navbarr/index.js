@@ -8,10 +8,10 @@ export default function Navbarr() {
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
   <Navbar.Collapse id="basic-navbar-nav">
     <Nav className="mr-auto">
-      <Nav.Link href="#" className="text-white" style={{border:'0.1rem solid white',borderRadius: '1.5rem'}}>للتواصل معنا</Nav.Link>
+      <Nav.Link href="#Contact" className="text-white" style={{border:'0.1rem solid white',borderRadius: '1.5rem'}}>للتواصل معنا</Nav.Link>
     </Nav>
     <Nav>
-           <Nav.Link href="#" className="text-white">شركاؤنا</Nav.Link>
+           <Nav.Link href="#Partners" className="text-white">شركاؤنا</Nav.Link>
          </Nav>
          <Nav>
            <Nav.Link href="#Rate" className="text-white">قيمنا</Nav.Link>

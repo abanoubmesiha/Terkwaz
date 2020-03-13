@@ -6,7 +6,7 @@ export default function index(props) {
          <div className="w-100" style={{position:'relative'}}>
   
    <div className="w-100" id="ContactBottomLine"></div>
-  <div className="w-50 m-auto text-center" id="Services">
+  <div className="w-50 m-auto text-center" id="Contact">
         <Card style={{ boxShadow: '1px 1px 4px'}}>
     <Card.Body>
       <Card.Title>للتواصل معنا</Card.Title>
