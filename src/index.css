@@ -24,8 +24,8 @@ body {
   url(./assets/images/2377@3x.png),url(./assets/images/2376@3x.png),
   url(./assets/images/circle.jpg),url(./assets/images/circletri.jpg),url(./assets/images/circletri.jpg),url(./assets/images/circletri.jpg);
   background-repeat: no-repeat,no-repeat,no-repeat,no-repeat,no-repeat,no-repeat,no-repeat,no-repeat;
-  background-position: right top,left top,8% 5%,45% 6%,left center, right center, 5% 20%, 60% 30%;
-  background-size: 55%,25%,40%,10%,20%,20%,20%,20%;
+  background-position: right top,left top,5% 4%,45% 10%,left center, right center, 5% 20%, 60% 30%;
+  background-size: 55%,25%,40%,7%,20%,20%,20%,20%;
 }
 
 code {
@@ -34,7 +34,7 @@ code {
 } 
 #Main {
   padding-top: 3vw;
-    padding-bottom: 40vw;
+    padding-bottom: 20vw;
     padding-right: 3vw;
 }
 #About,#Rate{
@@ -54,12 +54,31 @@ code {
   font-family: 'medium-font' !important;
 }
 @media (max-width: 640px) {
-  #Main {
+  /* #Main {
     margin-top: 190px;
     padding-bottom: 10vw;
-  }
-  .responsiveText {
+  } */
+  /* .responsiveText {
     font-size: 5.5vw !important;
     color: black;
+  } */
+  #Main {
+    padding-top: 1vw;
+      padding-bottom: 30vw;
+      padding-right: 1vw;
   }
+  #Services {
+    width: 90% !important;
+  }
+  body {
+    background-position: right top,left top,8% 2%,45% 5%,left center, right center, 5% 20%, 60% 30%;
+    background-size: 55%,25%,40%,10%,30%,30%,30%,30%;
+  }
+  .CarouselImg {
+    width: 25% !important;
+margin:0.5rem !important;
+  }
+  .carousel-indicators {
+    bottom:-20px !important;
+}
 }

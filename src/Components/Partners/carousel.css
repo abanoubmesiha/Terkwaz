@@ -2,5 +2,10 @@
     background-color:black;
 }
 .carousel-indicators {
-    bottom:-10px !important;
+    bottom:-10px;
+}
+
+.CarouselImg {
+width: 10%;
+margin:1rem;
 }
