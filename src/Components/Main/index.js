@@ -3,7 +3,7 @@ import {Row} from 'react-bootstrap'
 export default function Main() {
     return (
             <div id="Main" className="desktop text-right text-white pr-3 pt-5">
-             <h3 className="responsiveText">نقدم أفضل <span style={{color:'yellow'}}>حلول التسويق</span></h3>
+             <h3 className="responsiveText">نقدم أفضل <span id="ShoppingSol">حلول التسويق</span></h3>
              <h3 className="responsiveText">عبر المواقع والمنصات الإلكترونيه</h3>
              <h3 className="responsiveText">كافة ونضمن إعلام وحضور الجمهور</h3>
              </div>

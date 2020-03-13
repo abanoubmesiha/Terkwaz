@@ -3,6 +3,14 @@
   font-family: 'light-font';
   src: url(./assets/fonts/light-font.otf);
 }
+@font-face {
+  font-family: 'medium-font';
+  src: url(./assets/fonts/medium-font.otf);
+}
+@font-face {
+  font-family: 'bold-font';
+  src: url(./assets/fonts/bold-font.otf);
+}
 
 /* div {
   font-family: myFirstFont;
@@ -35,6 +43,13 @@ code {
 
 .responsiveText {
   font-size: 2.5vw !important;
+}
+#ShoppingSol {
+  color:var(--MyYellow);
+  font-family: 'medium-font' !important;
+}
+.medium-font {
+  font-family: 'medium-font' !important;
 }
 @media (max-width: 640px) {
   #Main {
